@@ -1,4 +1,4 @@
-// verify token
+// Verify token
 import jwt from "jsonwebtoken";
 import User from "../models/userSchema.js";
 
