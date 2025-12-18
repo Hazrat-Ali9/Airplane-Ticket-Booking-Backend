@@ -1,6 +1,6 @@
 import Flight from "../models/flightSchema.js";
 import Airline from "../models/airlineSchema.js";
-
+// fight controller
 // Controller to add a new airline
 
 export const getFlights = async (req, res) => {
