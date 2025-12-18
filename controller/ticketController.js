@@ -2,7 +2,7 @@ import Flight from "../models/flightSchema.js";
 import Airline from "../models/airlineSchema.js";
 import Booking from "../models/bookingSchema.js";
 import Ticket from "../models/ticketSchema.js";
-
+// ticket controller
 export const getTicket = async (req, res) => {
   const { uid } = req.params;
 
