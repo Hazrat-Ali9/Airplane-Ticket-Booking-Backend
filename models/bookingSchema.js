@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 const Schema = mongoose.Schema;
-
+//booking schema
 const bookingSchema = new Schema({
   flight: {
     type: Schema.Types.ObjectId,
