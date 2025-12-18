@@ -5,7 +5,7 @@ import Flight from "../models/flightSchema.js";
 import Stripe from "stripe";
 import Airline from "../models/airlineSchema.js";
 import Ticket from "../models/ticketSchema.js";
-
+// booking controller
 export const getCheckoutSession = async (req, res) => {
   try {
     const user = await User.findById(req.userId);
