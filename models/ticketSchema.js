@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 const Schema = mongoose.Schema;
-
+//ticket schema
 const ticketSchema = new Schema({
   uid: {
     type: String,
