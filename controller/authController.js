@@ -1,3 +1,4 @@
+// auth controller
 import User from "../models/userSchema.js";
 import Ticket from "../models/ticketSchema.js";
 import bcrypt from "bcrypt";
