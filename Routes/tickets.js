@@ -1,5 +1,5 @@
 import express from "express";
-// tickets
+// Tickets
 import {
   getTicket,
   getSingleTicketForVerification,
