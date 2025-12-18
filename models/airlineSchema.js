@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 const Schema = mongoose.Schema;
-
+// airline Schema
 // Define the airline schema
 const airlineSchema = new Schema({
   airlineLogo: {
